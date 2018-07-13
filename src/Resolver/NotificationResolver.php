@@ -92,6 +92,8 @@ class NotificationResolver implements ResolverInterface
             ->setAllowedTypes('wp_sound', 'string')
             ->setDefined('wp_wns_sound')
             ->setAllowedTypes('wp_wns_sound', 'string')
+            ->setDefined('android_channel_id')
+            ->setAllowedTypes('android_channel_id', 'string')
             ->setDefined('data')
             ->setAllowedTypes('data', 'array')
             ->setDefined('buttons')
